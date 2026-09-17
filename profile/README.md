@@ -1,18 +1,26 @@
 # Magi Labs
 
-Magi Labs builds open-source software for everyday work. We focus on practical tools, clear interfaces, and the details that make software pleasant to use.
+**Thoughtful open-source tools for everyday work.**
 
-The studio was founded by [Deepak Silaych](https://github.com/DeepakSilaych). Our work spans communication, developer tools, and self-hosted workflows.
+Magi Labs turns recurring friction into focused software for communication, development, and AI-assisted workflows. We care about clear interfaces and tools people can keep using.
 
-## Selected projects
+Explore the work at [magi-labs.github.io](https://magi-labs.github.io/).
 
-These projects are currently hosted on Deepak's personal GitHub profile. Their links will be updated as repositories move into Magi Labs.
+## Selected work
 
 | Project | What it does |
 | --- | --- |
-| [Magio](https://github.com/DeepakSilaych/Magio) | Open-source Gmail read receipts with a self-hosted tracking server and dashboard. |
-| [sess](https://github.com/DeepakSilaych/sess) | Persistent SSH terminals that you can detach and reconnect to. |
+| [Magio](https://github.com/DeepakSilaych/Magio) | Gmail read receipts with a self-hosted tracking server and dashboard. |
+| [sess](https://github.com/DeepakSilaych/sess) | SSH terminals you can detach from and reconnect to later. |
 | [Relay](https://github.com/DeepakSilaych/relay) | Persistent terminal workspaces for coding agents across repositories. |
-| [LiveMCP](https://github.com/DeepakSilaych/livemcp) | Connects AI agents to your real Chrome session, tabs, network activity, and console. |
+| [LiveMCP](https://github.com/DeepakSilaych/livemcp) | Connects AI agents to Chrome tabs, network activity, and console output. |
 
-Explore more at **[magi-labs.deepaksilaych.chatgpt.site](https://magi-labs.deepaksilaych.chatgpt.site)**.
+These projects currently live on the maintainer's GitHub profile and will be linked from this organization as they move.
+
+## Get in touch
+
+Questions and ideas are welcome as [public GitHub issues](https://github.com/Magi-Labs/.github/issues/new). For bugs in a specific project, use that project's issue tracker.
+
+## Maintainer
+
+Magi Labs is maintained by [Deepak Silaych](https://github.com/DeepakSilaych).
