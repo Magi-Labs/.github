@@ -1,0 +1,34 @@
+name: Update organization stars
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_stars.py
+      - .github/workflows/update-stars.yml
+permissions:
+  contents: write
+concurrency:
+  group: org-profile-stars
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh total stars
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_stars.py
+      - name: Commit changed total
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile/README.md
+          git commit -m 'Update organization star count'
+          git push
