@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Magi Labs logo for dark backgrounds</title>
+  <path fill="#080c10" d="M0 0h512v512H0z"/>
+  <path fill="none" stroke="#a0f4de" stroke-width="8" d="M108 108h296v296H108z"/>
+  <path fill="#a0f4de" d="M208 306V206h29l19 57 19-57h29v100h-23v-66l-18 54h-14l-18-54v66z"/>
+</svg>
