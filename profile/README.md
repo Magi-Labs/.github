@@ -18,6 +18,7 @@ Explore the work at [magi-labs.github.io](https://magi-labs.github.io/).
 | [sess](https://github.com/Magi-Labs/sess) | SSH terminals you can detach from and reconnect to later. |
 | [Relay](https://github.com/Magi-Labs/relay) | Persistent terminal workspaces for coding agents across repositories. |
 | [LiveMCP](https://github.com/Magi-Labs/livemcp) | Connects AI agents to Chrome tabs, network activity, and console output. |
+| [MobileMCP](https://github.com/Magi-Labs/mobilemcp) | Lets AI agents use a real Android phone: screen tree, taps, typing, gestures, notifications. |
 
 ## Get in touch
 
