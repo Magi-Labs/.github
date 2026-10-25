@@ -1,7 +1,7 @@
 # Magi Labs
 
 <!-- org-stars:start -->
-⭐ **32 total stars** across our public repositories.
+⭐ **33 total stars** across our public repositories.
 <!-- org-stars:end -->
 
 **Thoughtful open-source tools for everyday work.**
